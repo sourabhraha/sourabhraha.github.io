@@ -1,0 +1,108 @@
+.education{
+    min-width: 70%;
+}
+.education-container {
+    position: relative;
+    margin-top: 40px; 
+    width: 70%;
+}
+
+.education-box{
+    position: relative;
+    width: 45%;
+    border: 1px solid rgb(40, 87, 184);
+    background-color: whitesmoke;
+    padding: 25px 25px 25px 25px;
+    margin-bottom: 60px;
+    min-height: 170px;
+    overflow-wrap: break-word;
+    box-shadow: 1px 1px 5px 2px  rgb(40, 87, 184);
+}
+
+.education-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.education-date{
+    margin-left: 120px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.education-desc{
+    padding-top: 15px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.text-highlight{
+    font-weight: bold;
+}
+
+.education-box:nth-child(2n){
+    left: 85%;
+}
+
+
+.education-divider{
+    position: absolute;
+    border: 2.5px dashed black;
+    width: 0;
+    height: 80%;
+    left: 69%;
+    top: 10%;
+    font-weight: 500;
+}
+
+.education-traveller{
+    position: sticky;   
+    top: 26%;
+    transform: rotate(90deg);
+    font-size: 1.8rem;
+    color: rgb(40, 87, 184);
+    
+    
+}
+/* to fit the dots */
+
+@media only screen and (max-width: 760px){
+
+    .education-box{
+        width: 80%;
+        left: 25%;
+        padding: 15px 15px 15px 15px;
+        margin-bottom: 60px;
+        min-height: 120px;
+    }
+    
+    .education-title {
+        font-size: 22px;
+    }
+    
+    .education-date{
+        margin-left: 70px;
+    }
+
+    .education-box:nth-child(2n){
+        left: 25%;
+    }
+
+    .education-divider{
+        position: absolute;
+        border: 2.5px dashed black;
+        width: 0;
+        height: 80%;
+        left: 5%;
+        top: 10%;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 540px){
+
+        .education-box
+        {
+            width: 90%;
+        }
+}

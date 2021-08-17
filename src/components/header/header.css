@@ -1,0 +1,62 @@
+.header{
+    display:  flex;
+    justify-content: space-between;
+    flex: 1;                            /* Stretch to all the space that is available to you */
+    padding:  12px;
+    position: relative;                 /* A source/reference depending upon which we will absolute our sidebar  */
+    align-items: center;
+}
+
+.menu {
+
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+
+}
+
+.menu-icon {
+    font-size: 24px;
+
+
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.web-menu {
+    display:  flex;
+
+}
+
+.logo {
+    display:  flex;
+    font-size:  36px;
+    color:  rgb(40, 87, 184);
+    font-weight: 800;
+    
+
+}
+
+.mobile-menu i{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 720px){
+    .mobile-menu{
+        display: flex;
+        transition: ease-in-out all .5s;
+       
+    }
+
+    .web-menu{
+        display: none;
+    }
+    .logo {
+        font-size: 24px;
+    }
+}
+
+
+

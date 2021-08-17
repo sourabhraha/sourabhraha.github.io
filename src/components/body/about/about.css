@@ -1,0 +1,62 @@
+.about{
+    padding-bottom: 40px;
+
+}
+
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-pic{
+    height: 300px;
+    border-radius: 4px;
+    margin-top: 40px;
+    border-radius: 5px;
+	border: 2px solid gray;
+	transition: transform 0.4s;
+	transition-timing-function: ease-in-out;
+  
+}
+
+.my-pic:hover{
+    transform: translate(25px, -25px);
+}
+
+
+.about-info {
+    font-size: 25px;
+}
+
+.info-name {
+    color: rgb(40, 87, 184);
+    font-size: 32px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 720px) {
+    .about-top {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-pic{
+        height: 260px;
+        margin-top: 20px;
+    }
+
+    .my-pic:hover {
+        transform: scale(1.1);
+    }
+
+    .about-info{
+        font-size: 20px;
+    }
+
+    .info-name{
+        font-size: 26px;
+    }
+}

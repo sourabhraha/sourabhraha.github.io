@@ -1,0 +1,10 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    flex: 1;  /* It will take all the width available to it*/
+   
+}
+
+.projects-container {
+    margin-bottom: 20px;
+}

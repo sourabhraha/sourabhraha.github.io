@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+.home {
+    display: flex;
+    flex-direction: column;
+    width: 70%;                 /* For larger screens */
+    margin: auto;               /* It will give margin on both side depending upon how much space it has  */
+  
+}
+
+@media only screen and (max-width: 1024px){     /* Screen size smaller than laptop*/
+
+    .home{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 512px){      /* Screen size smaller than tab */
+    .home{
+        width: 100%;
+    }
+}

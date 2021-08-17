@@ -1,0 +1,75 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.section-header{
+   display: inline-flex;
+   margin-top: 0px;
+}
+
+.section-icon {
+    font-size: 32px;
+    font-weight: 800;
+    margin-right: 10px;
+    color: rgb(40, 87, 184);
+
+
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(40, 87, 184);
+   
+}
+
+.contact-container{
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-left {
+    max-width: 60%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.download {
+    background-color: aquamarine;
+    padding: 8px 16px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.download a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 720px)
+{
+    .contact-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-left{
+        max-width: 100%;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .download {
+        font-size: 16px;
+    }
+}
